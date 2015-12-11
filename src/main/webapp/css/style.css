@@ -1,0 +1,123 @@
+body {
+    /*background-image: url("../img/fondo.png");*/
+    /*background-size: cover;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    color: black;
+}
+
+body.pushable > .pusher {
+    background-color: #ffffff;
+    /*padding: 5px;*/
+}
+
+body.pushable{
+    background: #fff;
+}
+
+body.pushable > .pusher .titulo {
+    background: #050918;
+    /*height: 50px;*/
+    /*margin: -5px 0px 0px -5px;*/
+    color: white;
+    font-family:  "Times New Roman", Georgia,Verdana,Helvetica,sans-serif;
+    font-size: 2em;
+}
+
+
+.titulo .ui.segment.titulo-princ{
+   background-color: #050918;
+   /*padding: 0;*/
+}
+
+.ui.horizontal.segments>.segment.barra-titulos{
+    background-color: #000;
+    
+}
+
+.ui.segment.color-texto{
+    color: #1a531b;
+}
+
+
+.ui.horizontal.segments.segmento-arriba{
+/* 
+   height: 50px;*/
+    background-color: #000;
+    margin:0;
+    border:0;
+    
+}
+
+/*.navbar {*/
+    /*margin-bottom: 20px;*/
+/*}*/
+
+body > #container {
+    background-image: url("../../images/imgfondo.jpg");
+    min-height: 600px;
+    background-size: cover;
+    background-color: white;
+}
+
+#container > div.column {
+    background-color: #050918;
+    min-height: 600px;
+    opacity: 1;
+    transition: background 6s cubic-bezier(0.68, -0.55, 0.265, 1.4) 0s, opacity 6s cubic-bezier(0.68, -0.55, 0.265, 1.4) 0s;
+}
+
+#container {
+    background-image: url("../../images/imgfondo.jpg");
+    min-width: : 1200px;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+
+
+
+/*div.panel.login {*/
+    /*max-width: 400px;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+/*}*/
+
+/*div.panel.login .fa-stack {*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*display: block;*/
+    /*font-size: 4em;*/
+/*}*/
+
+a {
+    background: transparent none repeat scroll 0px 0px;
+    color: #177ADD;
+    text-decoration: none;
+}
+
+.ui.inverted.menu{
+    background: #213941 none repeat scroll 0% 0%;
+}
+
+
+
+.ui.card > .image, .ui.cards > .card > .image {
+    text-align: center;
+}
+
+.ui.card a, .ui.cards > .card a {
+    color: #AB5353;
+}
+ 
+@media (max-width:767px) {
+    .ui.horizontal.segments > .segment a.label.salida {
+        display: none;
+    }
+    
+    .ui.horizontal.segments > .segment a.label.menu-boton{
+        margin: 0 1.5em;
+    }
+}
